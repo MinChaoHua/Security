@@ -1,0 +1,14 @@
+
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://http://123.207.252.249:3306/security?useSSL=true
+    username: root
+    password: mch1021
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
